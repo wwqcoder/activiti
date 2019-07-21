@@ -19,7 +19,7 @@ public class ActivitiCompleteTask {
 
         Task task = taskService.createTaskQuery()
                 .processDefinitionKey("holiday")
-                .taskAssignee("lisi")
+                .taskAssignee("wwq")
                 .singleResult();
 
         taskService.complete(task.getId());

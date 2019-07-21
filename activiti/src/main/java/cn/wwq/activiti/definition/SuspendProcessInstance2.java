@@ -23,7 +23,7 @@ public class SuspendProcessInstance2 {
 
         //3.查询流程实例的对象
         ProcessInstance processInstance = runtimeService.createProcessInstanceQuery()
-                .processInstanceId("17501")
+                .processInstanceId("22501")
                 .singleResult();
 
         //4.得到当前流程定义的实例是否都为暂停状态
@@ -39,5 +39,6 @@ public class SuspendProcessInstance2 {
             System.out.println("流程定义："+processInstanceId+"挂起");
         }
     }
+
 
 }

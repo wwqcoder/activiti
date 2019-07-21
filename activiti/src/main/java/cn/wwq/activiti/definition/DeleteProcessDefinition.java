@@ -25,7 +25,7 @@ public class DeleteProcessDefinition {
 
         RepositoryService repositoryService = processEngine.getRepositoryService();
 
-        repositoryService.deleteDeployment("1",true);
+        repositoryService.deleteDeployment("12501",true);
     }
 
 }
