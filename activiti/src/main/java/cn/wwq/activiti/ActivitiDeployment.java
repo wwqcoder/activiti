@@ -14,25 +14,22 @@ import java.util.zip.ZipInputStream;
  * 流程部署
  **/
 public class ActivitiDeployment {
-    /*public static void main(String[] args) {
-
+    public static void main(String[] args) {
         //1.创建ProcessEngine对象
         ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
         //2.得到RepositoryService实例
         RepositoryService repositoryService = processEngine.getRepositoryService();
         //3.开始部署
         Deployment deployment = repositoryService.createDeployment()
-                .addClasspathResource("diagrams/myholiday.bpmn")
-                .addClasspathResource("diagrams/myholiday.png")
+                .addClasspathResource("diagrams/myholiday2.bpmn")
+                .addClasspathResource("diagrams/myholiday2.png")
                 .name("请假申请流程单")
                 .deploy();
         //4.输出部署的一些信息
         System.out.println(deployment.getName());
         System.out.println(deployment.getId());
-
-    }*/
-
-    public static void main(String[] args) {
+    }
+    public static void main1(String[] args) {
 
         ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
 
